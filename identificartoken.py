@@ -1,3 +1,5 @@
+import tablaautomatas as ta
+
 # Abre el archivo en modo lectura y escritura
 with open('salida.txt', 'r+') as archivo:
     # Lee todas las líneas del archivo
@@ -160,6 +162,10 @@ with open('salida.txt', 'r+') as archivo:
             linea += '  --33--'
 
         else:
-            linea += '  --definido por automata o error--'
+            var = ta.comprobar_cadena(linea)
+            if var == 0:
+                linea += '  --Error--'
+            else:
+                linea += f'  --{var}--'
 
         archivo.write(linea + '\n')
