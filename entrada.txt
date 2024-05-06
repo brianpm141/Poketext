@@ -1,0 +1,24 @@
+snorlax calcularArea
+    mew opciones[2]
+    opciones[0] = "Triángulo"
+    opciones[1] = "Cuadrado"
+
+    eevee i = 0; i < 2; i++
+        rattata opciones[i]
+
+    pichu opcion
+    magikarp opcion == "Triángulo"
+        fuego base, altura
+        rattata "Ingrese la base del triángulo: "
+        pichu base
+        rattata "Ingrese la altura del triángulo: "
+        pichu altura
+        rattata "El área del triángulo es: " + str((base * altura) / 2)
+    ditto
+        fuego lado
+        rattata "Ingrese el lado del cuadrado: "
+        pichu lado
+        rattata "El área del cuadrado es: " + str(lado * lado)
+
+calcularArea()
+
