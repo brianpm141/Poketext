@@ -1,3 +1,4 @@
+
 snorlax calcularArea
     mew opciones[2]
     opciones[0] = "Triángulo"
