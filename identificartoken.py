@@ -68,8 +68,8 @@ with open('salida.txt', 'r+') as archivo:
         elif '*' in linea:
             linea += ' --11--'
 
-        elif '/' in linea:
-            linea += ' --11--'
+        # elif '/' in linea:
+        #    linea += ' --11--'
 
         elif '**' in linea:
             linea += ' --11--'
@@ -104,8 +104,8 @@ with open('salida.txt', 'r+') as archivo:
         elif '¡' in linea:
             linea += '  --13--'
 
-        elif '"' in linea:
-            linea += '  --14--'
+        # elif '"' in linea:
+        #    linea += '  --14--'
 
         elif '~' in linea:
             linea += '  --15--'
@@ -125,8 +125,8 @@ with open('salida.txt', 'r+') as archivo:
         elif '.' in linea:
             linea += '  --20--'
 
-        elif "'" in linea:
-            linea += '  --21--'
+        # elif "'" in linea:
+        #    linea += '  --21--'
 
         elif '#' in linea:
             linea += '  --23--'
